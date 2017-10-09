@@ -1,0 +1,93 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "statemachine",
+        "scope": null,
+        "escapedName": "statemachine",
+        "name": "statemachine",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "C:\\Users\\woody\\Downloads\\electron-sample-apps-master\\logview"
+    ]
+  ],
+  "_from": "statemachine@latest",
+  "_id": "statemachine@0.15.2",
+  "_inCache": true,
+  "_location": "/statemachine",
+  "_nodeVersion": "7.10.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/statemachine-0.15.2.tgz_1501454981878_0.28574583027511835"
+  },
+  "_npmUser": {
+    "name": "woodyli",
+    "email": "woodyli@gmail.com"
+  },
+  "_npmVersion": "4.2.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "statemachine",
+    "scope": null,
+    "escapedName": "statemachine",
+    "name": "statemachine",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/statemachine/-/statemachine-0.15.2.tgz",
+  "_shasum": "1f57adda6acb08e670d75cafea240b1347fbbfd0",
+  "_shrinkwrap": null,
+  "_spec": "statemachine",
+  "_where": "C:\\Users\\woody\\Downloads\\electron-sample-apps-master\\wdbg",
+  "author": {
+    "name": "Woody.Li",
+    "email": "li.woodyli@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/woodylee1974/node-statemachine/issues"
+  },
+  "contributors": [],
+  "dependencies": {
+    "bluebird": "3.5.x"
+  },
+  "description": "A simple compact state machine",
+  "devDependencies": {
+    "coveralls": "^2.11.x",
+    "jscoverage": "^0.6.x",
+    "nodeunit": ">= 0.9.x"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "1f57adda6acb08e670d75cafea240b1347fbbfd0",
+    "tarball": "https://registry.npmjs.org/statemachine/-/statemachine-0.15.2.tgz"
+  },
+  "engine": "node >= 6.9.1",
+  "gitHead": "8dbc34f5c87b1317a060ca8bfd7a26773dfe3059",
+  "homepage": "https://github.com/mkozjak/node-statemachine#readme",
+  "license": "MIT",
+  "main": "./statemachine.js",
+  "maintainers": [
+    {
+      "name": "woody",
+      "email": "li.woodyli@gmail.com"
+    }
+  ],
+  "name": "state-machine",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/woodylee1974/node-statemachine.git"
+  },
+  "scripts": {
+    "coveralls": "jscoverage lib && NODETELNETCLIENT_COV=1 nodeunit --reporter=lcov test | coveralls",
+    "test": "nodeunit test"
+  },
+  "version": "0.15.2"
+}
